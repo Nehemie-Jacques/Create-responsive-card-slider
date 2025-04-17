@@ -68,7 +68,7 @@ body {
     color: #fff;
 }
 
-.slider-wrapper .swiper-pagination {
+.slider-wrapper .swiper-pagination-bullet {
     background: #fff;
     height: 15px;
     width: 15px;
@@ -81,9 +81,10 @@ body {
 }
 
 .slider-wrapper .swiper-slide-button:hover {
-    color: #4658ff
+    color: #4658ff;
     margin-top: -50px;
     transition: 0.5s ease;
+
 }
 
 @media (max-width: 768px) {
